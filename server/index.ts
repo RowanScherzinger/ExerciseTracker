@@ -42,7 +42,7 @@ app.route("/api", api);
 app.use("/*", serveStatic({ root: "./client" }));
 app.get("/", serveStatic({ path: "./client/index.html" }));
 
-const PORT = parseInt(process.env.PORT ?? "3000");
+const PORT = parseInt(process.env.PORT ?? "3005");
 console.log(`Exercise Planner running on http://localhost:${PORT}`);
 
 export default {

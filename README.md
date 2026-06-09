@@ -35,7 +35,7 @@ bun run start     # production
 bun run dev       # watch mode
 ```
 
-The app is served at `http://localhost:3000`.
+The app is served at `http://localhost:3005`.
 
 ## API
 
@@ -53,7 +53,7 @@ The app is served at `http://localhost:3000`.
 
 ## Deployment
 
-Hosted at `excersize.scherzinger.online` via a Cloudflare ZeroTrust tunnel pointing to `localhost:3000` on a home server. Run as a persistent process with systemd or pm2.
+Hosted at `exercise.scherzinger.online` via a Cloudflare ZeroTrust tunnel pointing to `localhost:3005` on a home server. Run as a persistent process with systemd or pm2.
 
 ```bash
 # Example systemd service (create at /etc/systemd/system/exercise-planner.service)
