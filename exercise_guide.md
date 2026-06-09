@@ -422,11 +422,11 @@ How to perform every movement in your exercise plan. Each entry covers starting 
 
 **Speed and incline targets:**
 
-| Phase        | Speed       | Incline | Notes                                    |
-|--------------|-------------|---------|------------------------------------------|
-| Month 1–3    | 5.5–6.0 km/h | 0–1%   | Brisk walk, conversational pace          |
-| Month 4–6    | 6.0–6.5 km/h | 1–2%   | Incline activates glutes and hamstrings  |
-| Month 7–12   | 6.5 km/h    | 2–3%   | Meaningful posterior chain loading       |
+| Phase        | Speed        | Notes                                                 |
+|--------------|--------------|-------------------------------------------------------|
+| Month 1–3    | 5.5–6.0 km/h | Brisk walk, conversational pace                       |
+| Month 4–6    | 6.0–6.5 km/h | Increase speed to raise cardiovascular demand         |
+| Month 7–12   | 6.5 km/h     | Sustained pace; vest adds progressive overload        |
 
 **With vest and wrist weights:** Wearing the 5 kg vest + 0.5 kg wrist weights (total +6 kg) raises your effective weight to 96 kg. This increases calorie burn by ~20–25% and adds meaningful load to the glutes, core, and postural muscles — essentially turning a walk into a weighted carry. Introduce from month 3 during walks only, not jogging.
 

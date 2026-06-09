@@ -195,11 +195,11 @@ Use this when you want to skip the treadmill or as a complement to a shorter run
 
 Do this on 2–3 of your rest days. It directly reduces lower back stiffness, burns additional calories, and builds your aerobic base without adding recovery demand.
 
-| Phase         | Speed       | Duration | Incline | Notes                                          |
-|---------------|-------------|----------|---------|------------------------------------------------|
-| Month 1–3     | 5.5–6.0 km/h | 25 min  | 0–1%    | Brisk walk pace — you should be breathing but able to hold a conversation |
-| Month 4–6     | 6.0–6.5 km/h | 30 min  | 1–2%    | Slight incline increases glute and hamstring activation |
-| Month 7–12    | 6.5 km/h    | 30 min   | 2–3%    | Meaningful posterior chain engagement at this incline |
+| Phase         | Speed        | Duration | Notes                                                                     |
+|---------------|--------------|----------|---------------------------------------------------------------------------|
+| Month 1–3     | 5.5–6.0 km/h | 25 min   | Brisk walk pace — you should be breathing but able to hold a conversation |
+| Month 4–6     | 6.0–6.5 km/h | 30 min   | Increase speed focus — drive pace to raise heart rate                     |
+| Month 7–12    | 6.5 km/h     | 30 min   | Sustained brisk pace; add vest from Month 3 for progressive overload      |
 
 **Add the vest (Month 3+):** Walking at 6 km/h with the 5 kg vest and 0.5 kg wrist weights (total +6 kg) burns ~20–25% more calories than unweighted and meaningfully loads the glutes and core. Effective calorie burn: ~350–400 kcal for a 30-min session at 95 kg effective weight.
 

@@ -37,12 +37,13 @@ export async function getScheduleDay(c: Context) {
 
   let workoutDetail = null;
   if (day.workoutType) {
-    const wk = workouts[day.workoutType] as {
+    const resolvedKey = workouts[day.workoutType] ? day.workoutType : `${day.workoutType}_circuit`;
+    const wk = workouts[resolvedKey] as {
       name: string;
       durationMin: number;
       exercises: { exerciseId: string; sets: number; reps: number; weightKg: number; restSec: number; durationSec?: number; note?: string }[];
     };
-    if (wk) {
+    if (wk?.exercises) {
       workoutDetail = {
         name: wk.name,
         durationMin: wk.durationMin,
