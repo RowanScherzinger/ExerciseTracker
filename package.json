@@ -1,0 +1,11 @@
+{
+  "name": "exercise-planner",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --watch server/index.ts",
+    "start": "bun run server/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.7.0"
+  }
+}

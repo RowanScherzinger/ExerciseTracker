@@ -1,0 +1,106 @@
+{
+  "warmup": {
+    "name": "Warm-Up",
+    "durationMin": 7,
+    "exercises": [
+      { "exerciseId": "cat_cow",           "sets": 1, "reps": 10, "weightKg": 0, "restSec": 0 },
+      { "exerciseId": "hip_flexor_stretch","sets": 1, "reps": 0,  "weightKg": 0, "restSec": 0, "durationSec": 30, "note": "30 sec each side" },
+      { "exerciseId": "glute_bridge",      "sets": 1, "reps": 15, "weightKg": 0, "restSec": 0 },
+      { "exerciseId": "hip_circles",       "sets": 1, "reps": 10, "weightKg": 0, "restSec": 0, "note": "10 each direction" },
+      { "exerciseId": "thoracic_rotation", "sets": 1, "reps": 8,  "weightKg": 0, "restSec": 0, "note": "8 each side" },
+      { "exerciseId": "jumping_jacks",     "sets": 1, "reps": 0,  "weightKg": 0, "restSec": 0, "durationSec": 60, "note": "60 sec — or brisk march if low-impact preferred" }
+    ]
+  },
+  "A": {
+    "name": "Functional Strength — Lower & Pull",
+    "durationMin": 40,
+    "exercises": [
+      { "exerciseId": "dumbbell_deadlift", "sets": 3, "reps": 8,  "weightKg": 10, "restSec": 90, "note": "10 kg each — foundation of posterior chain" },
+      { "exerciseId": "goblet_squat",      "sets": 3, "reps": 10, "weightKg": 10, "restSec": 75, "note": "10 kg — one dumbbell held at chest" },
+      { "exerciseId": "single_arm_row",    "sets": 3, "reps": 10, "weightKg": 10, "restSec": 75, "note": "10 kg — 10 per side" },
+      { "exerciseId": "reverse_lunge",     "sets": 3, "reps": 10, "weightKg": 6,  "restSec": 60, "note": "6 kg each — 10 per side" },
+      { "exerciseId": "bird_dog",          "sets": 3, "reps": 8,  "weightKg": 0,  "restSec": 45, "note": "Bodyweight — 8 per side, pause 2 sec at top" },
+      { "exerciseId": "farmers_carry",     "sets": 3, "reps": 0,  "weightKg": 12, "restSec": 60, "durationSec": 30, "note": "12 kg each — 30 sec walk" }
+    ],
+    "cooldown": [
+      { "exerciseId": "romanian_deadlift", "note": "RDL stretch hold — 30 sec" },
+      { "exerciseId": "hip_flexor_stretch","note": "Pigeon pose — 30 sec each side" },
+      { "exerciseId": "cat_cow",           "note": "8 reps" }
+    ]
+  },
+  "B": {
+    "name": "Functional Strength — Upper & Core",
+    "durationMin": 40,
+    "exercises": [
+      { "exerciseId": "romanian_deadlift", "sets": 3, "reps": 10, "weightKg": 10, "restSec": 90, "note": "10 kg each — key back rehab exercise" },
+      { "exerciseId": "floor_press",       "sets": 3, "reps": 10, "weightKg": 10, "restSec": 75, "note": "10 kg each" },
+      { "exerciseId": "bent_over_row",     "sets": 3, "reps": 10, "weightKg": 10, "restSec": 75, "note": "10 kg each — 10 per side" },
+      { "exerciseId": "shoulder_press",    "sets": 3, "reps": 10, "weightKg": 8,  "restSec": 75, "note": "8 kg each — seated preferred" },
+      { "exerciseId": "dead_bug",          "sets": 3, "reps": 8,  "weightKg": 0,  "restSec": 45, "note": "Bodyweight — 8 per side" },
+      { "exerciseId": "suitcase_carry",    "sets": 3, "reps": 0,  "weightKg": 12, "restSec": 60, "durationSec": 30, "note": "12 kg — 30 sec each side" }
+    ],
+    "cooldown": [
+      { "exerciseId": "cat_cow",           "note": "Child's pose — 30 sec × 2" },
+      { "exerciseId": "hip_flexor_stretch","note": "Chest doorframe stretch — 30 sec" },
+      { "exerciseId": "hip_flexor_stretch","note": "Hip flexor lunge stretch — 30 sec each side" }
+    ]
+  },
+  "C_treadmill": {
+    "name": "Stamina — Treadmill Intervals",
+    "durationMin": 35,
+    "type": "cardio",
+    "phases": [
+      {
+        "label": "Month 1–2",
+        "segments": [
+          { "type": "walk",    "speedKmh": 5.0, "durationMin": 3,  "label": "Warm-up walk" },
+          { "type": "walk",    "speedKmh": 5.5, "durationMin": 3,  "rounds": 5, "label": "Walk" },
+          { "type": "jog",     "speedKmh": 7.0, "durationMin": 1,  "rounds": 5, "label": "Jog" },
+          { "type": "walk",    "speedKmh": 4.5, "durationMin": 2,  "label": "Cool-down walk" }
+        ]
+      },
+      {
+        "label": "Month 3–4",
+        "segments": [
+          { "type": "walk",    "speedKmh": 5.5, "durationMin": 3,  "label": "Warm-up walk" },
+          { "type": "walk",    "speedKmh": 6.0, "durationMin": 2,  "rounds": 6, "label": "Walk" },
+          { "type": "jog",     "speedKmh": 8.0, "durationMin": 2,  "rounds": 6, "label": "Jog" },
+          { "type": "walk",    "speedKmh": 5.0, "durationMin": 2,  "label": "Cool-down walk" }
+        ]
+      },
+      {
+        "label": "Month 5–6",
+        "segments": [
+          { "type": "walk",    "speedKmh": 5.5, "durationMin": 3,  "label": "Warm-up walk" },
+          { "type": "jog",     "speedKmh": 8.5, "durationMin": 20, "label": "Steady jog" },
+          { "type": "walk",    "speedKmh": 4.5, "durationMin": 5,  "label": "Cool-down walk" }
+        ]
+      },
+      {
+        "label": "Month 7–12",
+        "segments": [
+          { "type": "walk",    "speedKmh": 6.0, "durationMin": 3,  "label": "Warm-up walk" },
+          { "type": "jog",     "speedKmh": 9.0, "durationMin": 3,  "rounds": 4, "label": "Jog" },
+          { "type": "run",     "speedKmh": 11.0,"durationMin": 1,  "rounds": 4, "label": "Run" },
+          { "type": "walk",    "speedKmh": 5.0, "durationMin": 3,  "label": "Cool-down walk" }
+        ]
+      }
+    ]
+  },
+  "C_circuit": {
+    "name": "Stamina — Dumbbell Circuit",
+    "durationMin": 35,
+    "type": "circuit",
+    "rounds": 3,
+    "restBetweenExercisesSec": 20,
+    "restBetweenRoundsSec": 90,
+    "exercises": [
+      { "exerciseId": "dumbbell_squat",    "sets": 1, "reps": 12, "weightKg": 7,  "restSec": 20, "note": "6–8 kg each — light, endurance pace" },
+      { "exerciseId": "push_up",           "sets": 1, "reps": 10, "weightKg": 0,  "restSec": 20, "note": "Bodyweight — knees down if needed" },
+      { "exerciseId": "romanian_deadlift", "sets": 1, "reps": 10, "weightKg": 8,  "restSec": 20, "note": "8 kg each — light and controlled" },
+      { "exerciseId": "alt_reverse_lunge", "sets": 1, "reps": 10, "weightKg": 0,  "restSec": 20, "note": "Bodyweight — 10 per side, focus on balance" },
+      { "exerciseId": "plank",             "sets": 1, "reps": 0,  "weightKg": 0,  "restSec": 20, "durationSec": 30, "note": "30 sec hold" },
+      { "exerciseId": "mountain_climbers", "sets": 1, "reps": 20, "weightKg": 0,  "restSec": 90, "note": "20 reps (10 per side) — drives heart rate up" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="theme-color" content="#0f1117" />
+  <title>Exercise Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <h1>Exercise Planner</h1>
+      <span class="phase-chip" id="phase-chip">Loading…</span>
+    </header>
+
+    <main id="main-content">
+
+      <!-- Calendar view -->
+      <div id="view-calendar" class="view active">
+        <div class="calendar-container">
+          <div class="week-labels">
+            <div class="week-label">Mon</div>
+            <div class="week-label">Tue</div>
+            <div class="week-label">Wed</div>
+            <div class="week-label">Thu</div>
+            <div class="week-label">Fri</div>
+            <div class="week-label">Sat</div>
+            <div class="week-label">Sun</div>
+          </div>
+          <div id="calendar-body"></div>
+        </div>
+      </div>
+
+      <!-- Day detail view -->
+      <div id="view-detail" class="view">
+        <div id="detail-content"></div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Reschedule modal -->
+  <div class="modal-overlay" id="reschedule-modal">
+    <div class="modal">
+      <div class="modal-title">Reschedule Session</div>
+      <div class="modal-subtitle" id="reschedule-subtitle"></div>
+      <div class="rest-days-list" id="rest-days-list"></div>
+      <div style="display:flex; gap:8px;">
+        <button class="btn btn-secondary" id="reschedule-cancel" style="flex:1">Cancel</button>
+        <button class="btn btn-primary" id="reschedule-confirm" style="flex:1">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

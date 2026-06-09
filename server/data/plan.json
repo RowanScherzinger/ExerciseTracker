@@ -1,0 +1,34 @@
+{
+  "startDate": "2026-06-09",
+  "weeklyPattern": ["A", null, "B", null, "C", null, null],
+  "phases": [
+    {
+      "name": "Foundation",
+      "slug": "foundation",
+      "startMonth": 0,
+      "endMonth": 3,
+      "notes": "Form focus. Starting weights only. No vest yet. Day C optional from month 2."
+    },
+    {
+      "name": "Load Progression",
+      "slug": "load",
+      "startMonth": 4,
+      "endMonth": 6,
+      "notes": "Increase weight when 3×10 feels easy. Introduce vest on bodyweight movements in Day C. Wrist weights on treadmill walks."
+    },
+    {
+      "name": "Volume + Stamina",
+      "slug": "volume",
+      "startMonth": 7,
+      "endMonth": 12,
+      "notes": "4th set on main compound lifts. 20 min continuous jog at 8–9 km/h. Single-leg progressions."
+    },
+    {
+      "name": "Advanced",
+      "slug": "advanced",
+      "startMonth": 13,
+      "endMonth": null,
+      "notes": "Tempo work, single-leg variants, vest combinations, sustained 30 min jog at 10 km/h."
+    }
+  ]
+}
